@@ -3,10 +3,12 @@ body{
   font-size: 150%;
 }
 header{
-  background-color: lightblue;
+  background-color: grey;
 }
 nav{
-  background-color: purple;
+  background-color: lightblue;
+
+
 }
 main{
   background-color: yellow;
@@ -15,9 +17,13 @@ main{
 footer{
   background-color: grey;
 }
+ul{
+  display: flex;
+  justify-content: space-around;
+}
 li{
   display: inline;
-  width: 70%;
+  width:fit-content;
 }
 h1{
   text-align: center;
